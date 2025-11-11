@@ -1,0 +1,9 @@
+# backend-uat.tf
+terraform {
+  backend "s3" {
+    bucket = "my-terraform-state-bucket122"
+    key    = "lambda/UAT/terraform.tfstate"
+    region = "us-east-1"
+    encrypt = true
+  }
+}
