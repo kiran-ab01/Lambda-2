@@ -1,7 +1,3 @@
-variable "env" {
-  description = "Environment name (SIT, UAT, PROD)"
-  type        = string
-}
 
 variable "lambda_function_name" {
   description = "Name of the Lambda function"
