@@ -1,4 +1,4 @@
 bucket=my-terraform-state-bucket122
-key=lambda/uat/terraform.tfstate
+key=lambda/UAT/terraform.tfstate
 region=us-east-1
 encrypt=true
