@@ -1,15 +1,20 @@
+variable "env" {
+  description = "Environment name (SIT, UAT, PROD)"
+  type        = string
+}
+
 variable "lambda_function_name" {
-  description = "Lambda function name"
+  description = "Name of the Lambda function"
   type        = string
 }
 
 variable "lambda_s3_bucket" {
-  description = "S3 bucket where Lambda zip is stored"
+  description = "S3 bucket containing Lambda zip"
   type        = string
 }
 
 variable "lambda_s3_key" {
-  description = "S3 key of the Lambda zip"
+  description = "S3 key for Lambda zip"
   type        = string
 }
 
